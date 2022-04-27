@@ -13,7 +13,9 @@ function myTimer() {
   const d = new Date();
   document.getElementById("demo").innerHTML = d.toLocaleTimeString();
 }
-let curuntDate = new Date();
+
+
+let curuntDate = new Date(2022,4, 27,10);
 let d = new Date();
 d = d.toLocaleTimeString();
 curuntDate= curuntDate.getHours();
@@ -39,8 +41,8 @@ if(curuntDate >=1 && curuntDate < 12){
 return (
   <>
     <div>
-          <h1>Hello sir, <spam style={cssStyle}>{greeting}</spam></h1><br/>
-          <h1 id="demo">{d}</h1>
+          <h1>Hello sir, <spam style={cssStyle}>{greeting+" " }</spam> (<span id="demo">{d}</span>)</h1><br/>
+         
     </div>
     
   </>
