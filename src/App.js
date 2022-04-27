@@ -7,7 +7,15 @@ function App() {
 
 
 //function defination
-let curuntDate = new Date(2022,4,27,1);
+setInterval(myTimer, 1000);
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+let curuntDate = new Date();
+let d = new Date();
+d = d.toLocaleTimeString();
 curuntDate= curuntDate.getHours();
 let greeting ={}
 const cssStyle = {};    
@@ -31,8 +39,10 @@ if(curuntDate >=1 && curuntDate < 12){
 return (
   <>
     <div>
-          <h1>Hello <spam style={cssStyle}>{greeting}</spam></h1>
+          <h1>Hello sir, <spam style={cssStyle}>{greeting}</spam></h1><br/>
+          <h1 id="demo">{d}</h1>
     </div>
+    
   </>
 );
 }
