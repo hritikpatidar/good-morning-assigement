@@ -15,7 +15,7 @@ function myTimer() {
 }
 
 
-let curuntDate = new Date(2022,4, 27,10);
+let curuntDate = new Date();
 let d = new Date();
 d = d.toLocaleTimeString();
 curuntDate= curuntDate.getHours();
