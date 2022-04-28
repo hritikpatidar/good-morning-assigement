@@ -41,12 +41,13 @@ if(curuntDate >=1 && curuntDate < 12){
 return (
   <>
     <div>
-          <h1>Hello sir, <spam style={cssStyle}>{greeting+" " }</spam> (<span id="demo">{d}</span>)</h1><br/>
+          <h1>Hii!, <spam style={cssStyle}>{greeting+" " }</spam> (<span id="demo">{d}</span>)</h1><br/>
          
     </div>
     
   </>
 );
+
 }
 
 export default App;
