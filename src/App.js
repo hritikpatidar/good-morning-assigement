@@ -26,16 +26,15 @@ if(curuntDate >=1 && curuntDate < 12){
     greeting = "Good Morning🤗";
     cssStyle.color = "green";
 }else if(curuntDate >=12 && curuntDate < 16){
-    greeting = "Good Afternoon🤗";
+    greeting = "Good Afternoon😇";
     cssStyle.color = "yellow";
 }else if(curuntDate >= 16 && curuntDate < 20 ){
-    greeting = "Good Evening🤗";
+    greeting = "Good Evening☺️";
     cssStyle.color = "orange";
 }else{
-    greeting = "Good Night🤗";
+    greeting = "Good Night😴";
     cssStyle.color = "black";
 }
-
 
 //return statement
 return (
