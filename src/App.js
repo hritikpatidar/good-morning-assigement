@@ -23,16 +23,16 @@ let greeting ={}
 const cssStyle = {};    
 
 if(curuntDate >=1 && curuntDate < 12){
-    greeting = "Good Morning🤗";
+    greeting = "Good Morning kitty 🤗";
     cssStyle.color = "green";
 }else if(curuntDate >=12 && curuntDate < 16){
-    greeting = "Good Afternoon😇";
+    greeting = "Good Afternoon kitty 😇";
     cssStyle.color = "yellow";
 }else if(curuntDate >= 16 && curuntDate < 20 ){
-    greeting = "Good Evening☺️";
+    greeting = "Good Evening kitty ☺️";
     cssStyle.color = "orange";
 }else{
-    greeting = "Good Night😴";
+    greeting = "Good Night kitty 😴";
     cssStyle.color = "black";
 }
 
